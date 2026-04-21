@@ -1,0 +1,26 @@
+body {
+
+}
+
+:root {
+    --scroll-y: 0px;
+}
+
+#HOME_HERO {
+    height: 200px;
+    transform: translateY(calc(var(--scroll-y) * -1));
+}
+
+body.header-fixed header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
